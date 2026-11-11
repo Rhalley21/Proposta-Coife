@@ -224,6 +224,29 @@ td:first-child{font-weight:700;color:var(--ink);white-space:nowrap}
 .closing p{margin-top:36px;color:var(--on-band-muted);font-size:21.5px}
 footer{background:var(--band);border-top:1px solid rgba(255,255,255,.12);color:var(--on-band-muted);font-size:16.5px;padding-block:22px}
 footer b{color:var(--gold);letter-spacing:.12em}
+
+/* concorrência */
+.handle{font-size:19px;color:var(--muted);margin-top:10px}
+.handle b{color:var(--ink)}
+.stories3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-bottom:32px}
+.stories3 .fig.you img{border:3px solid var(--orange)}
+@media(max-width:700px){.stories3{grid-template-columns:1fr;max-width:320px;margin-inline:auto}}
+.cmp{min-width:680px}
+.cmp th:nth-child(2){background:var(--orange)}
+.cmp td:not(:first-child),.cmp th:not(:first-child){text-align:center}
+.cmp td.ok{color:var(--green);font-weight:700}
+.cmp td.bad{color:var(--red);font-weight:700}
+.legend{margin-top:14px;font-size:17px;color:var(--muted)}
+.legend .g{color:var(--green);font-weight:700}.legend .r{color:var(--red);font-weight:700}
+.cards4{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.card .kpi{font-family:var(--font-display);font-weight:700;font-size:clamp(35px,3.6vw,43px);line-height:1.1;color:var(--orange-ink)}
+.card.hot{background:var(--orange);border-color:var(--orange)}
+.card.hot .kpi,.card.hot h3,.card.hot p{color:#fff}
+@media(max-width:1000px){.cards4{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.cards4{grid-template-columns:1fr}}
+.learn{min-width:640px}
+.learn td:first-child{white-space:normal}
+.learn td:nth-child(2){color:var(--orange-ink);font-weight:700;white-space:nowrap}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style>
 
@@ -232,6 +255,7 @@ footer b{color:var(--gold);letter-spacing:.12em}
     <a class="brand" href="#topo" aria-label="INETRIS"><img src="img/logo.png" alt="" width="36" height="36">INETRIS</a>
     <ul>
       <li><a class="l" href="#diagnostico">Diagnóstico</a></li>
+      <li><a class="l" href="#concorrencia">Concorrência</a></li>
       <li><a class="l" href="#hoje">Ações imediatas</a></li>
       <li><a class="l" href="#proposta">Proposta</a></li>
       <li><a class="l" href="#investimento">Investimento</a></li>
@@ -247,7 +271,7 @@ footer b{color:var(--gold);letter-spacing:.12em}
       <p class="eyebrow">Diagnóstico e proposta</p>
       <h1>Raio-X do Instagram</h1>
       <p class="place">Coife Odonto Valença do Piauí</p>
-      <p class="lead">O que percebemos, o que já pode ser feito e como o INETRIS pode estruturar o marketing da clínica.</p>
+      <p class="lead">O que percebemos, como a concorrência se posiciona, o que já pode ser feito e como o INETRIS pode estruturar o marketing da clínica.</p>
       <p class="meta">INETRIS – Instituto Nexus Tríade Saber &nbsp;|&nbsp; Novembro 2026</p>
     </div>
     <div class="phones" aria-hidden="true">
@@ -267,6 +291,7 @@ footer b{color:var(--gold);letter-spacing:.12em}
         <li>Constância e engajamento</li>
         <li>Stories: narrativa e capacidade de venda</li>
         <li>Feed: o que funciona e o que enfraquece</li>
+        <li>Concorrência: Rufino Odontologia e Dra. Thaís Bomfim</li>
         <li>Caminho do seguidor até a avaliação</li>
       </ul>
     </div>
@@ -366,6 +391,119 @@ footer b{color:var(--gold);letter-spacing:.12em}
           <div class="pair"><span class="ic bad" aria-hidden="true">!</span><div><b>Datas comemorativas genéricas</b><p>Ocupam espaço sem gerar conversa nem agendamento.</p></div></div>
         </div>
       </div>
+    </div>
+  </div>
+</section>
+
+<section id="concorrencia" class="band divider">
+  <div class="wrap">
+    <h2>A concorrência em Valença</h2>
+    <p>O que Rufino Odontologia e Dra. Thaís Bomfim fazem, e onde a Coife pode sair na frente</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="sec-head"><h2>Rufino Odontologia: história, evento e prova</h2><p class="handle"><b>@rufinoodontooficial</b> &nbsp;|&nbsp; 5.855 seguidores &nbsp;|&nbsp; segue 39 perfis</p></div>
+    <div class="split rev">
+      <div class="stories">
+        <figure class="fig"><img src="img/rufino-bio.jpg" alt="Bio e 3 posts fixados da Rufino Odontologia" width="900" height="1359" loading="lazy"><figcaption>Bio e 3 posts fixados</figcaption></figure>
+        <figure class="fig"><img src="img/rufino-placa.jpg" alt="Placa do Dia Rufinético" width="900" height="1602" loading="lazy"><figcaption>Placa do Dia Rufinético</figcaption></figure>
+      </div>
+      <ul class="finds">
+        <li><span class="ic ok" aria-hidden="true">✓</span><div><b>Bio que vende</b><p>Promessa, dor e prova: “Dentes fixos em 48h”, “+3.675 vidas transformadas”.</p></div></li>
+        <li><span class="ic ok" aria-hidden="true">✓</span><div><b>Fixados que contam a história</b><p>“História Rufino” partes 1 e 2: a clínica e o casal de dentistas.</p></div></li>
+        <li><span class="ic ok" aria-hidden="true">✓</span><div><b>Evento próprio com nome</b><p>“Dia Rufinético”, com identidade e placa que vira depoimento e indicação.</p></div></li>
+        <li><span class="ic ok" aria-hidden="true">✓</span><div><b>Constância e orgulho regional</b><p>Posts no mesmo dia, “Todo o Vale do Sambito presente”, parcerias.</p></div></li>
+        <li><span class="ic bad" aria-hidden="true">!</span><div><b>Engajamento baixo</b><p>7 a 9 curtidas para 5.855 seguidores: cerca de 0,15%.</p></div></li>
+        <li><span class="ic bad" aria-hidden="true">!</span><div><b>Foco estreito</b><p>Implante e prótese; destaques com capas lisas e sem conteúdo.</p></div></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--tint)">
+  <div class="wrap">
+    <div class="sec-head"><h2>Dra. Thaís Bomfim: autoridade e gancho</h2><p class="handle"><b>@dra.thaisbomfim</b> &nbsp;|&nbsp; 26,6 mil seguidores &nbsp;|&nbsp; segue 7.066 perfis</p></div>
+    <div class="split rev">
+      <div class="stories">
+        <figure class="fig"><img src="img/thais-bio.jpg" alt="Bio e posts fixados da Dra. Thaís Bomfim" width="900" height="1473" loading="lazy"><figcaption>Bio e posts fixados</figcaption></figure>
+        <figure class="fig"><img src="img/thais-reel.jpg" alt="Reel com gancho da Dra. Thaís Bomfim" width="900" height="1602" loading="lazy"><figcaption>Reel com gancho</figcaption></figure>
+      </div>
+      <ul class="finds">
+        <li><span class="ic ok" aria-hidden="true">✓</span><div><b>Autoridade</b><p>Dentista e biomédica, certificado internacional fixado no perfil.</p></div></li>
+        <li><span class="ic ok" aria-hidden="true">✓</span><div><b>Ganchos fortes</b><p>“Eu não gosto de procedimentos estéticos...” prende nos primeiros segundos.</p></div></li>
+        <li><span class="ic ok" aria-hidden="true">✓</span><div><b>Chamada direta e urgência</b><p>“Já agenda sua avaliação comigo” e “O fim do ano está chegando”.</p></div></li>
+        <li><span class="ic ok" aria-hidden="true">✓</span><div><b>Experiência premium</b><p>Produtos de marca à mostra, café com biscoito personalizado; ela é a prova viva.</p></div></li>
+        <li><span class="ic bad" aria-hidden="true">!</span><div><b>Crescimento artificial</b><p>Segue 7.066 perfis; 45 curtidas para 26,6 mil: cerca de 0,17%.</p></div></li>
+        <li><span class="ic bad" aria-hidden="true">!</span><div><b>Depende só dela</b><p>Marca pessoal; destaques de lifestyle, sem depoimentos nem agendamento.</p></div></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="sec-head"><h2>Stories: eles contam uma história, a Coife informa</h2><p class="sub">Mesmo dia, três perfis</p></div>
+    <div class="stories3">
+      <figure class="fig"><img src="img/story-rufino.jpg" alt="Story da Rufino: evento com narrativa regional" width="900" height="1602" loading="lazy"><figcaption>Rufino: evento com narrativa regional</figcaption></figure>
+      <figure class="fig"><img src="img/story-thais.jpg" alt="Story da Dra. Thaís: experiência premium" width="900" height="1602" loading="lazy"><figcaption>Dra. Thaís: experiência premium</figcaption></figure>
+      <figure class="fig you"><img src="img/story-coife.jpg" alt="Story da Coife: repost sem contexto" width="900" height="1557" loading="lazy"><figcaption>Coife: repost sem contexto</figcaption></figure>
+    </div>
+    <div class="callout"><span style="display:block;color:var(--gold);font-size:14.5px;letter-spacing:.22em;text-transform:uppercase;margin-bottom:8px">O que muda</span><span style="font-weight:400">Os concorrentes mostram uma experiência: o paciente chegando, a festa, o cuidado nos detalhes. A Coife publica avisos soltos. Com sequência, o mesmo conteúdo passa a vender.</span></div>
+  </div>
+</section>
+
+<section style="background:var(--tint)">
+  <div class="wrap">
+    <div class="sec-head"><h2>Comparativo lado a lado</h2><p class="sub">Retrato de 11/11/2026</p></div>
+    <div class="table-wrap">
+      <table class="cmp">
+        <thead><tr><th></th><th>Coife</th><th>Rufino</th><th>Dra. Thaís</th></tr></thead>
+        <tbody>
+          <tr><td>Seguidores</td><td>2.499</td><td>5.855</td><td>26,6 mil</td></tr>
+          <tr><td>Perfis seguidos</td><td class="bad">867</td><td>39</td><td>7.066</td></tr>
+          <tr><td>Engajamento em post recente</td><td class="ok">≈ 0,5%</td><td>≈ 0,15%</td><td>≈ 0,17%</td></tr>
+          <tr><td>Constância</td><td class="bad">26 dias sem post</td><td>Diária</td><td>Diária</td></tr>
+          <tr><td>Posts fixados</td><td class="bad">Nenhum</td><td>História da clínica</td><td>Autoridade e posicionamento</td></tr>
+          <tr><td>Rosto da marca</td><td class="bad">Logo</td><td>Casal de dentistas</td><td>A própria doutora</td></tr>
+          <tr><td>Evento próprio</td><td>HOF Day (pontual)</td><td>Dia Rufinético</td><td>Não</td></tr>
+          <tr><td>Foco</td><td class="ok">Várias especialidades</td><td>Implante e prótese</td><td>Harmonização</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="legend"><span class="g">Verde:</span> vantagem da Coife. &nbsp;<span class="r">Vermelho:</span> onde precisa agir primeiro.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="sec-head"><h2>Onde a Coife pode sair na frente</h2><p class="sub">Os concorrentes postam mais. A Coife tem o que eles não têm.</p></div>
+    <div class="cards4">
+      <article class="card hot"><span class="kpi">≈ 3x</span><h3>Público que responde</h3><p>Engajamento proporcional três vezes maior que o dos concorrentes. Falta frequência, não interesse.</p></article>
+      <article class="card"><span class="kpi">1º</span><h3>A clínica completa</h3><p>Entre os três perfis, a única com várias especialidades num só lugar: a clínica da família em Valença.</p></article>
+      <article class="card"><span class="kpi">HOF Day</span><h3>Evento já existe</h3><p>Pode virar evento de marca recorrente, com nome, identidade e placa de indicação.</p></article>
+      <article class="card"><span class="kpi">Região</span><h3>Pacientes de toda a região</h3><p>Depoimentos de Aroazes e Pimenteiras viram série fixa no feed.</p></article>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--tint)">
+  <div class="wrap">
+    <div class="sec-head"><h2>O que aprender com cada concorrente</h2><p class="sub">E como aplicar na Coife</p></div>
+    <div class="table-wrap">
+      <table class="learn">
+        <thead><tr><th>Aprendizado</th><th>De quem</th><th>Como aplicar na Coife</th></tr></thead>
+        <tbody>
+          <tr><td>Bio com promessa e prova</td><td>Rufino</td><td>“+X sorrisos transformados em Valença e região” (com número real)</td></tr>
+          <tr><td>Fixados que contam a história</td><td>Rufino</td><td>A história da Coife em Valença: inauguração, equipe, propósito</td></tr>
+          <tr><td>Evento com nome e identidade</td><td>Rufino</td><td>HOF Day recorrente, laranja, com placa de indicação</td></tr>
+          <tr><td>Gancho nos primeiros segundos</td><td>Dra. Thaís</td><td>Todo reel abre com uma frase que prende</td></tr>
+          <tr><td>Chamada direta para agendar</td><td>Dra. Thaís</td><td>Toda legenda termina com o próximo passo</td></tr>
+          <tr><td>Rosto na frente da marca</td><td>Os dois</td><td>Série “Quem cuida de você” com os dentistas da Coife</td></tr>
+          <tr><td>Constância diária</td><td>Os dois</td><td>Calendário fixo no feed e stories todos os dias</td></tr>
+        </tbody>
+      </table>
     </div>
   </div>
 </section>
